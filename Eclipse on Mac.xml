@@ -51,20 +51,16 @@
   <action id="ActivateRunToolWindow">
     <keyboard-shortcut first-keystroke="alt 4" />
   </action>
-  <action id="ActivateStructureToolWindow">
-    <keyboard-shortcut first-keystroke="meta O" second-keystroke="alt 7" />
-  </action>
+  <action id="ActivateStructureToolWindow" />
   <action id="ActivateTODOToolWindow">
     <keyboard-shortcut first-keystroke="alt 6" />
   </action>
   <action id="AddToFavoritesPopup">
     <keyboard-shortcut first-keystroke="shift alt F" />
   </action>
-  <action id="AutoIndentLines">
-    <keyboard-shortcut first-keystroke="meta alt I" />
-  </action>
+  <action id="AutoIndentLines" />
   <action id="Back">
-    <keyboard-shortcut first-keystroke="alt LEFT" />
+    <keyboard-shortcut first-keystroke="meta alt LEFT" />
   </action>
   <action id="CallHierarchy">
     <keyboard-shortcut first-keystroke="meta alt H" />
@@ -197,9 +193,7 @@
   <action id="Console.TableResult.NextPage">
     <keyboard-shortcut first-keystroke="meta alt DOWN" />
   </action>
-  <action id="Console.TableResult.PreviousPage">
-    <keyboard-shortcut first-keystroke="meta alt UP" />
-  </action>
+  <action id="Console.TableResult.PreviousPage" />
   <action id="Console.TableResult.Reload">
     <keyboard-shortcut first-keystroke="meta R" />
   </action>
@@ -226,6 +220,12 @@
   </action>
   <action id="DelegateMethods">
     <keyboard-shortcut first-keystroke="shift alt E" />
+  </action>
+  <action id="Diff.NextChange">
+    <keyboard-shortcut first-keystroke="meta F6" />
+  </action>
+  <action id="Diff.PrevChange">
+    <keyboard-shortcut first-keystroke="shift meta F6" />
   </action>
   <action id="DumpLookupElementWeights">
     <keyboard-shortcut first-keystroke="shift meta alt W" />
@@ -290,7 +290,9 @@
   <action id="EditorDownWithSelection">
     <keyboard-shortcut first-keystroke="shift DOWN" />
   </action>
-  <action id="EditorDuplicate" />
+  <action id="EditorDuplicate">
+    <keyboard-shortcut first-keystroke="meta alt UP" />
+  </action>
   <action id="EditorDuplicateLines">
     <keyboard-shortcut first-keystroke="meta alt DOWN" />
   </action>
@@ -488,7 +490,7 @@
     <keyboard-shortcut first-keystroke="meta P" />
   </action>
   <action id="FileStructurePopup">
-    <keyboard-shortcut first-keystroke="meta F3" />
+    <keyboard-shortcut first-keystroke="meta O" />
   </action>
   <action id="Find">
     <keyboard-shortcut first-keystroke="meta H" />
@@ -503,12 +505,8 @@
   <action id="FindPrevious">
     <keyboard-shortcut first-keystroke="shift meta K" />
   </action>
-  <action id="FindUsages">
-    <keyboard-shortcut first-keystroke="meta G" />
-  </action>
-  <action id="FindUsagesInFile">
-    <keyboard-shortcut first-keystroke="shift meta G" />
-  </action>
+  <action id="FindUsages" />
+  <action id="FindUsagesInFile" />
   <action id="FindWordAtCaret">
     <keyboard-shortcut first-keystroke="meta F12" />
   </action>
@@ -522,7 +520,7 @@
     <keyboard-shortcut first-keystroke="shift alt F8" />
   </action>
   <action id="Forward">
-    <keyboard-shortcut first-keystroke="alt RIGHT" />
+    <keyboard-shortcut first-keystroke="meta alt RIGHT" />
   </action>
   <action id="FullyExpandTreeNode">
     <keyboard-shortcut first-keystroke="MULTIPLY" />
@@ -578,7 +576,7 @@
     <keyboard-shortcut first-keystroke="meta alt B" />
   </action>
   <action id="GotoLine">
-    <keyboard-shortcut first-keystroke="meta L" />
+    <keyboard-shortcut first-keystroke="meta G" />
   </action>
   <action id="GotoNextError" />
   <action id="GotoPreviousError">
@@ -714,7 +712,6 @@
   </action>
   <action id="NextTab">
     <keyboard-shortcut first-keystroke="meta F6" />
-    <keyboard-shortcut first-keystroke="meta alt LEFT" />
   </action>
   <action id="NextTemplateVariable">
     <keyboard-shortcut first-keystroke="TAB" />
@@ -748,7 +745,6 @@
   <action id="PreviousOccurence" />
   <action id="PreviousTab">
     <keyboard-shortcut first-keystroke="shift meta F6" />
-    <keyboard-shortcut first-keystroke="meta alt RIGHT" />
   </action>
   <action id="PreviousTemplateVariable">
     <keyboard-shortcut first-keystroke="shift TAB" />
@@ -791,6 +787,7 @@
   </action>
   <action id="RenameElement">
     <keyboard-shortcut first-keystroke="shift alt R" />
+    <keyboard-shortcut first-keystroke="meta alt R" />
   </action>
   <action id="Replace">
     <keyboard-shortcut first-keystroke="meta F" />
@@ -841,6 +838,9 @@
   <action id="SaveAll">
     <keyboard-shortcut first-keystroke="meta S" />
   </action>
+  <action id="Scala.TypeInfo">
+    <keyboard-shortcut first-keystroke="meta alt I" />
+  </action>
   <action id="SelectIn">
     <keyboard-shortcut first-keystroke="alt F1" />
   </action>
@@ -881,7 +881,7 @@
     <keyboard-shortcut first-keystroke="meta alt S" />
   </action>
   <action id="ShowUsages">
-    <keyboard-shortcut first-keystroke="meta alt F7" />
+    <keyboard-shortcut first-keystroke="shift meta G" />
   </action>
   <action id="ShowUsagesSettings">
     <keyboard-shortcut first-keystroke="shift meta alt F7" />
