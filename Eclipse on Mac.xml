@@ -34,7 +34,7 @@
     <keyboard-shortcut first-keystroke="alt 5" />
   </action>
   <action id="ActivateFindToolWindow">
-    <keyboard-shortcut first-keystroke="alt 3" />
+    
   </action>
   <action id="ActivateHierarchyToolWindow">
     <keyboard-shortcut first-keystroke="alt 8" />
@@ -63,7 +63,7 @@
     <keyboard-shortcut first-keystroke="meta alt LEFT" />
   </action>
   <action id="CallHierarchy">
-    <keyboard-shortcut first-keystroke="meta alt H" />
+    <keyboard-shortcut first-keystroke="shift meta C" />
   </action>
   <action id="ChangeSignature">
     <keyboard-shortcut first-keystroke="shift alt C" />
@@ -96,7 +96,7 @@
   <action id="CloseEditor" />
   <action id="CloseWindow" />
   <action id="CodeCompletion">
-    <keyboard-shortcut first-keystroke="meta SPACE" />
+    <keyboard-shortcut first-keystroke="control SPACE" />
   </action>
   <action id="CodeInspection.OnEditor" />
   <action id="CollapseAll">
@@ -202,7 +202,7 @@
   </action>
   <action id="CopyElement" />
   <action id="CopyPaths">
-    <keyboard-shortcut first-keystroke="shift meta C" />
+    
   </action>
   <action id="CopyReference">
     <keyboard-shortcut first-keystroke="shift meta alt C" />
@@ -270,7 +270,7 @@
     <keyboard-shortcut first-keystroke="shift meta ENTER" />
   </action>
   <action id="EditorContextInfo">
-    <keyboard-shortcut first-keystroke="alt Q" />
+    
   </action>
   <action id="EditorDeleteLine">
     <keyboard-shortcut first-keystroke="meta D" />
@@ -526,7 +526,7 @@
     <keyboard-shortcut first-keystroke="MULTIPLY" />
   </action>
   <action id="Generate">
-    <keyboard-shortcut first-keystroke="alt INSERT" />
+    <keyboard-shortcut first-keystroke="meta shift Z" />
   </action>
   <action id="GotoAction">
     <keyboard-shortcut first-keystroke="shift meta A" />
@@ -566,7 +566,7 @@
   </action>
   <action id="GotoDeclaration">
     <keyboard-shortcut first-keystroke="F3" />
-    <mouse-shortcut keystroke="control button1" />
+    <mouse-shortcut keystroke="meta button1" />
   </action>
   <action id="GotoFile">
     <keyboard-shortcut first-keystroke="shift meta R" />
@@ -722,7 +722,9 @@
     <keyboard-shortcut first-keystroke="shift meta O" />
   </action>
   <action id="OverrideMethods" />
-  <action id="ParameterInfo" />
+  <action id="ParameterInfo">
+  	<keyboard-shortcut first-keystroke="meta P" />
+  </action>
   <action id="PasteMultiple">
     <keyboard-shortcut first-keystroke="shift meta V" />
     <keyboard-shortcut first-keystroke="shift meta INSERT" />
@@ -750,7 +752,7 @@
     <keyboard-shortcut first-keystroke="shift TAB" />
   </action>
   <action id="Print">
-    <keyboard-shortcut first-keystroke="meta P" />
+    
   </action>
   <action id="ProjectViewChangeView">
     <keyboard-shortcut first-keystroke="alt F1" />
@@ -869,7 +871,6 @@
   </action>
   <action id="ShowPopupMenu">
     <keyboard-shortcut first-keystroke="meta N" />
-    <mouse-shortcut keystroke="button3" />
     <keyboard-shortcut first-keystroke="shift alt S" />
     <keyboard-shortcut first-keystroke="meta F10" />
     <keyboard-shortcut first-keystroke="shift alt T" />
@@ -992,7 +993,7 @@
   </action>
   <action id="ValidateXml" />
   <action id="Vcs.QuickListPopupAction">
-    <keyboard-shortcut first-keystroke="alt BACK_QUOTE" />
+    
   </action>
   <action id="Vcs.ShowMessageHistory">
     <keyboard-shortcut first-keystroke="meta M" />
