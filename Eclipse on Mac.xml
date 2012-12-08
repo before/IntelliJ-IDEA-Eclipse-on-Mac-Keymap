@@ -34,7 +34,7 @@
     <keyboard-shortcut first-keystroke="alt 5" />
   </action>
   <action id="ActivateFindToolWindow">
-    
+    <keyboard-shortcut first-keystroke="alt 3" />
   </action>
   <action id="ActivateHierarchyToolWindow">
     <keyboard-shortcut first-keystroke="alt 8" />
@@ -51,14 +51,18 @@
   <action id="ActivateRunToolWindow">
     <keyboard-shortcut first-keystroke="alt 4" />
   </action>
-  <action id="ActivateStructureToolWindow" />
+  <action id="ActivateStructureToolWindow">
+    <keyboard-shortcut first-keystroke="meta O" second-keystroke="alt 7" />
+  </action>
   <action id="ActivateTODOToolWindow">
     <keyboard-shortcut first-keystroke="alt 6" />
   </action>
   <action id="AddToFavoritesPopup">
     <keyboard-shortcut first-keystroke="shift alt F" />
   </action>
-  <action id="AutoIndentLines" />
+  <action id="AutoIndentLines">
+    <keyboard-shortcut first-keystroke="meta alt I" />
+  </action>
   <action id="Back">
     <keyboard-shortcut first-keystroke="meta alt LEFT" />
   </action>
@@ -193,7 +197,9 @@
   <action id="Console.TableResult.NextPage">
     <keyboard-shortcut first-keystroke="meta alt DOWN" />
   </action>
-  <action id="Console.TableResult.PreviousPage" />
+  <action id="Console.TableResult.PreviousPage">
+    <keyboard-shortcut first-keystroke="meta alt UP" />
+  </action>
   <action id="Console.TableResult.Reload">
     <keyboard-shortcut first-keystroke="meta R" />
   </action>
@@ -201,9 +207,7 @@
     <keyboard-shortcut first-keystroke="F1" />
   </action>
   <action id="CopyElement" />
-  <action id="CopyPaths">
-    
-  </action>
+  <action id="CopyPaths" />
   <action id="CopyReference">
     <keyboard-shortcut first-keystroke="shift meta alt C" />
   </action>
@@ -270,7 +274,7 @@
     <keyboard-shortcut first-keystroke="shift meta ENTER" />
   </action>
   <action id="EditorContextInfo">
-    
+    <keyboard-shortcut first-keystroke="alt Q" />
   </action>
   <action id="EditorDeleteLine">
     <keyboard-shortcut first-keystroke="meta D" />
@@ -317,14 +321,14 @@
   </action>
   <action id="EditorLineEnd">
     <keyboard-shortcut first-keystroke="END" />
-    <keyboard-shortcut first-keystroke="control RIGHT" />
+    <keyboard-shortcut first-keystroke="meta RIGHT" />
   </action>
   <action id="EditorLineEndWithSelection">
     <keyboard-shortcut first-keystroke="shift END" />
   </action>
   <action id="EditorLineStart">
     <keyboard-shortcut first-keystroke="HOME" />
-    <keyboard-shortcut first-keystroke="control LEFT" />
+    <keyboard-shortcut first-keystroke="meta LEFT" />
   </action>
   <action id="EditorLineStartWithSelection">
     <keyboard-shortcut first-keystroke="shift HOME" />
@@ -348,7 +352,7 @@
     <keyboard-shortcut first-keystroke="shift meta PAGE_UP" />
   </action>
   <action id="EditorNextWord">
-    <keyboard-shortcut first-keystroke="meta RIGHT" />
+    <keyboard-shortcut first-keystroke="alt RIGHT" />
   </action>
   <action id="EditorNextWordWithSelection">
     <keyboard-shortcut first-keystroke="shift alt RIGHT" />
@@ -373,7 +377,7 @@
     <keyboard-shortcut first-keystroke="shift meta alt V" />
   </action>
   <action id="EditorPreviousWord">
-    <keyboard-shortcut first-keystroke="meta LEFT" />
+    <keyboard-shortcut first-keystroke="alt LEFT" />
   </action>
   <action id="EditorPreviousWordWithSelection">
     <keyboard-shortcut first-keystroke="shift alt LEFT" />
@@ -491,6 +495,7 @@
   </action>
   <action id="FileStructurePopup">
     <keyboard-shortcut first-keystroke="meta O" />
+    <keyboard-shortcut first-keystroke="meta F3" />
   </action>
   <action id="Find">
     <keyboard-shortcut first-keystroke="meta H" />
@@ -505,8 +510,12 @@
   <action id="FindPrevious">
     <keyboard-shortcut first-keystroke="shift meta K" />
   </action>
-  <action id="FindUsages" />
-  <action id="FindUsagesInFile" />
+  <action id="FindUsages">
+    <keyboard-shortcut first-keystroke="meta G" />
+  </action>
+  <action id="FindUsagesInFile">
+    <keyboard-shortcut first-keystroke="shift meta G" />
+  </action>
   <action id="FindWordAtCaret">
     <keyboard-shortcut first-keystroke="meta F12" />
   </action>
@@ -576,7 +585,7 @@
     <keyboard-shortcut first-keystroke="meta alt B" />
   </action>
   <action id="GotoLine">
-    <keyboard-shortcut first-keystroke="meta G" />
+    <keyboard-shortcut first-keystroke="meta L" />
   </action>
   <action id="GotoNextError" />
   <action id="GotoPreviousError">
@@ -712,6 +721,7 @@
   </action>
   <action id="NextTab">
     <keyboard-shortcut first-keystroke="meta F6" />
+    <keyboard-shortcut first-keystroke="meta alt LEFT" />
   </action>
   <action id="NextTemplateVariable">
     <keyboard-shortcut first-keystroke="TAB" />
@@ -722,9 +732,7 @@
     <keyboard-shortcut first-keystroke="shift meta O" />
   </action>
   <action id="OverrideMethods" />
-  <action id="ParameterInfo">
-  	<keyboard-shortcut first-keystroke="meta P" />
-  </action>
+  <action id="ParameterInfo" />
   <action id="PasteMultiple">
     <keyboard-shortcut first-keystroke="shift meta V" />
     <keyboard-shortcut first-keystroke="shift meta INSERT" />
@@ -747,12 +755,13 @@
   <action id="PreviousOccurence" />
   <action id="PreviousTab">
     <keyboard-shortcut first-keystroke="shift meta F6" />
+    <keyboard-shortcut first-keystroke="meta alt RIGHT" />
   </action>
   <action id="PreviousTemplateVariable">
     <keyboard-shortcut first-keystroke="shift TAB" />
   </action>
   <action id="Print">
-    
+    <keyboard-shortcut first-keystroke="meta P" />
   </action>
   <action id="ProjectViewChangeView">
     <keyboard-shortcut first-keystroke="alt F1" />
@@ -891,7 +900,7 @@
     <keyboard-shortcut first-keystroke="meta F5" />
   </action>
   <action id="SmartTypeCompletion">
-    <keyboard-shortcut first-keystroke="shift alt SPACE" />
+    <keyboard-shortcut first-keystroke="shift control SPACE" />
   </action>
   <action id="StepInto" />
   <action id="StepOut">
@@ -988,12 +997,10 @@
   <action id="Unwrap">
     <keyboard-shortcut first-keystroke="alt R" />
   </action>
-  <action id="UsageView.Include">
-    <keyboard-shortcut first-keystroke="INSERT" />
-  </action>
+  <action id="UsageView.Include" />
   <action id="ValidateXml" />
   <action id="Vcs.QuickListPopupAction">
-    
+    <keyboard-shortcut first-keystroke="alt BACK_QUOTE" />
   </action>
   <action id="Vcs.ShowMessageHistory">
     <keyboard-shortcut first-keystroke="meta M" />
