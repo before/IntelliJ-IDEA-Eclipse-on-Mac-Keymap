@@ -533,7 +533,7 @@
     <keyboard-shortcut first-keystroke="MULTIPLY" />
   </action>
   <action id="Generate">
-    <keyboard-shortcut first-keystroke="meta shift Z" />
+    <keyboard-shortcut first-keystroke="shift meta Z" />
   </action>
   <action id="GotoAction">
     <keyboard-shortcut first-keystroke="shift meta A" />
